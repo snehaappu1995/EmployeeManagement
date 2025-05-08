@@ -38,11 +38,11 @@ public class ProductController {
         return productService.updateProduct(id, product);
     }
 
-    // Delete
-//    @DeleteMapping("/{id}")
-//    public void deleteProduct(@PathVariable Long id) {
-//        productService.deleteProduct(id);
-//    }
+     Delete
+    @DeleteMapping("/{id}")
+    public void deleteProduct(@PathVariable Long id) {
+        productService.deleteProduct(id);
+    }
 
 
 }
